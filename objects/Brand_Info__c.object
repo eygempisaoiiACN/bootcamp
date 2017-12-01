@@ -42,10 +42,10 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <description>Brand Info</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
@@ -53,41 +53,24 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Employee__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Employee</label>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Interviewers</relationshipName>
-        <required>false</required>
+        <fullName>system_brand_id__c</fullName>
+        <description>Brand ID</description>
+        <externalId>true</externalId>
+        <label>Brand ID</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>Number</type>
+        <unique>true</unique>
     </fields>
-    <fields>
-        <fullName>Position__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Position</label>
-        <referenceTo>Position__c</referenceTo>
-        <relationshipLabel>Interviewers</relationshipLabel>
-        <relationshipName>Interviewers</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <label>Interviewer</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>Brand Info</label>
     <nameField>
-        <label>Interviewer Name</label>
+        <label>Brand Info Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Interviewers</pluralLabel>
+    <pluralLabel>Brand Info</pluralLabel>
     <searchLayouts/>
-    <sharingModel>Private</sharingModel>
-    <startsWith>Vowel</startsWith>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
