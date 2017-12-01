@@ -281,9 +281,7 @@
         <field>Review__c.Position__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <hasActivationRequired>false</hasActivationRequired>
     <label>Recruiter</label>
-    <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -374,4 +372,5 @@
         <tab>Position__c</tab>
         <visibility>None</visibility>
     </tabSettings>
+    <userLicense>Salesforce</userLicense>
 </PermissionSet>
