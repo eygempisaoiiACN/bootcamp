@@ -72,7 +72,6 @@
         <members>Applicant__c-Applicant Layout</members>
         <members>Candidate__c-Candidate Layout</members>
         <members>Employment_Website__c-Employment Website Layout</members>
-        <members>G_Position__c-G-Position Layout</members>
         <members>Global-Recruiter Layout</members>
         <members>Interviewer__c-Interviewer Layout</members>
         <members>Job_Application__c-Job Application Layout</members>
@@ -190,6 +189,11 @@
         <members>Position__c.Set_Status_to_Open_Approved</members>
         <members>Position__c.Set_Status_to_Pending_Approval</members>
         <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Recruiting_Manager</members>
+        <members>CEO</members>
+        <name>Role</name>
     </types>
     <version>31.0</version>
 </Package>
