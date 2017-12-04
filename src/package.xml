@@ -120,6 +120,7 @@
         <members>New_Candidate</members>
         <members>New_Standard_Position</members>
         <members>Position__c.New_Posting</members>
+        <members>Position__c.New</members>
         <name>QuickAction</name>
     </types>
     <types>
