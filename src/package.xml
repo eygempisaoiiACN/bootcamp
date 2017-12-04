@@ -142,9 +142,11 @@
     <types>
         <members>Recruiting_Reports</members>
         <members>Recruiting_Reports/Avg_Days_to_Hire_With_and_Without_Travel</members>
+        <members>Recruiting_Reports/Job_postings</members>
         <members>Recruiting_Reports/Open_Positions_by_Functional_Area_and_Re</members>
         <members>Recruiting_Reports/Open_filled_Cancelled_positions</members>
         <members>Recruiting_Reports/Positions_Open_Longer_Than_90_Days</members>
+        <members>Recruiting_Reports/Track_Candidate_by_Position</members>
         <name>Report</name>
     </types>
     <types>
@@ -189,5 +191,5 @@
         <members>Position__c.Set_Status_to_Pending_Approval</members>
         <name>WorkflowFieldUpdate</name>
     </types>
-    <version>40.0</version>
+    <version>31.0</version>
 </Package>
